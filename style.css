@@ -1,0 +1,34 @@
+/*Adicionando mudanças visuais*/
+body {
+    background-color: #f7f2e8;
+    color: #0E0E0E;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+header {
+    background: linear-gradient(180deg, #7B0F1A 0%, #5b0c15 100%);
+    color: #F5EDE2;
+    border-bottom: 4px solid #C3994B;
+    padding: 20px 0;
+}
+
+/* Alterações especificas para textos do header */
+.titulo h1 {
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.titulo p {
+    margin: 4px 0;
+}
+
+/* /// */
+
+.inicio {
+    background: linear-gradient(180deg, #7B0F1A 0%, #5b0c15 100%);
+    color: #F5EDE2;
+    border-radius:  20px;
+}
