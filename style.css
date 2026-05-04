@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    
 }
 
 
@@ -16,13 +17,18 @@ header {
 }
 
 /* Alterações especificas para textos do header */
+.titulo{
+        text-align: center;
+}
+
 .titulo h1 {
-    font-size: 2.2rem;
+    font-size: 100px;
     margin: 0;
 }
 
 .titulo p {
-    margin: 4px 0;
+    margin: 2px 0;
+    font-size: 25px;
 }
 
 /* /// */
@@ -30,5 +36,49 @@ header {
 .inicio {
     background: linear-gradient(180deg, #7B0F1A 0%, #5b0c15 100%);
     color: #F5EDE2;
+    border-width: 200px;
     border-radius:  20px;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+    padding: 2px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    
+}
+
+.listagem{
+    font-size: 25px;
+}
+
+.form-control{
+    border-radius: 15px;
+}
+
+
+img{
+
+    width: 75%;
+    height: 500px;
+
+    object-fit: justify ; 
+    border-radius: 6px;
+    border: 2px solid #C3994B;
+    flex-shrink:0;
+    background:#f5ede2;
+
+}
+
+.viagem{
+    font-size: 20px;
+    text-align: justify;
+    color: #333;
+    margin-right: 80px;
+    margin-left: 80px;
+    background: #F5EDE2;
+    padding: 8px;
+    border-radius: 6px;
+    border-left: 5px solid #C3994B;
 }
